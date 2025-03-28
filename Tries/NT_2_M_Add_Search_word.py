@@ -36,10 +36,10 @@ class WordDictionary:
             
             return dfs(0, self.root)
     
-    def main():
-        inp = ["WordDictionary", "addWord", "day", "addWord", "bay", "addWord", "may", "search", "say", "search", "day", "search", ".ay", "search", "b.."]
-        res = WordDictionary()
-        print(WordDictionary.addWord(inp))
-    
-    if __name__ == "__main__":
-        main()
+def main():
+    inp = ["WordDictionary", "addWord", "day", "addWord", "bay", "addWord", "may", "search", "say", "search", "day", "search", ".ay", "search", "b.."]
+    res = WordDictionary()
+    print(WordDictionary.addWord(inp))
+
+if __name__ == "__main__":
+    main()
