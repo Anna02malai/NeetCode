@@ -1,4 +1,4 @@
-# LeetCode
+# NeetCode
 
 The repository consists of the Neetcode problems that I solve and practice to improve my Coding skills. It is from the website Neetcode.io <br>
 
