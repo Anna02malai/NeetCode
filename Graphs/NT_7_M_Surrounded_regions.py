@@ -8,7 +8,7 @@ class Solution:
             
             board[r][c] = "T"
             capture(r+1, c)
-            capture(r-11, c)
+            capture(r-1, c)
             capture(r, c+1)
             capture(r, c-1)
 
